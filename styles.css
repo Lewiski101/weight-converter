@@ -22,7 +22,6 @@ body {
         align-items: center;  /* Horizontally center elements */
         height: 100vh;  /* Full screen height */
         padding: 20px;  /* Add padding to avoid edges */
-        margin:0 auto;
     }
   .app-card{
     width:100%;
