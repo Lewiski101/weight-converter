@@ -22,7 +22,7 @@ body {
         justify-content: space-between;  /* Space between elements */
         padding: 20px;  /* Add padding to avoid edges */
     }
-
+}
 /* Container Styling */
 .container {
     display: flex;
