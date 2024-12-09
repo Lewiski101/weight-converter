@@ -16,13 +16,13 @@ body {
     margin-left: 105px;
 }
 @media (max-width: 768px) {
-    body {
+     body {
         flex-direction: column;  /* Change to column on small screens */
-        justify-content: space-between;  /* Space between elements */
-        margin:0 auto;
-        padding: 10px;  /* Add padding to avoid edges */
+        justify-content: center;  /* Vertically center elements */
+        align-items: center;  /* Horizontally center elements */
+        height: 100vh;  /* Full screen height */
+        padding: 20px;  /* Add padding to avoid edges */
     }
-    
 }
 /* Container Styling */
 .container {
