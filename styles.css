@@ -14,7 +14,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding:10px;
 }
 @media (max-width: 768px) {
      body {
@@ -25,6 +24,9 @@ body {
         padding: 20px;  /* Add padding to avoid edges */
         margin:0 auto;
     }
+  .app-card{
+    width:100%;
+}
 }
 /* Container Styling */
 .container {
@@ -43,7 +45,7 @@ input{
     border-radius: 8px;
     box-shadow: 10px 4px 10px rgba(78, 78, 78, 0.5);
     border:1px solid black;
-    padding:30px 90px;
+    padding:30px 70px;
     width: 100%;
     max-width: 400px;
     text-align: center;
