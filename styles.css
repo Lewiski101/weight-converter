@@ -19,8 +19,10 @@ body {
     body {
         flex-direction: column;  /* Change to column on small screens */
         justify-content: space-between;  /* Space between elements */
+        margin:0 auto;
         padding: 10px;  /* Add padding to avoid edges */
     }
+    
 }
 /* Container Styling */
 .container {
