@@ -11,8 +11,8 @@ body {
     background-color: #f4f4f9;
     color: #333;
     display: flex;
-    texr-align:center;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
 }
 @media (max-width: 768px) {
@@ -21,10 +21,11 @@ body {
         justify-content: center;  /* Vertically center elements */
         align-items: center;  /* Horizontally center elements */
         height: 100vh;  /* Full screen height */
-        padding: 20px;  /* Add padding to avoid edges */
+        padding: 10px;  /* Add padding to avoid edges */
+        margin:0 auto;
     }
- .app-card{
-    width:1300px;
+  .app-card{
+    width:10000px;
 }
 }
 /* Container Styling */
@@ -46,11 +47,12 @@ input{
     border:1px solid black;
     padding:30px 70px;
     width: 100%;
+    max-width: 400px;
     text-align: center;
 }
 
 .app-card h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #333;
     margin-bottom: 20px;
