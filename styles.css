@@ -1,3 +1,4 @@
+
 /* Global Styles */
 * {
     margin: 0;
@@ -41,7 +42,7 @@ input{
     border-radius: 8px;
     box-shadow: 10px 4px 10px rgba(78, 78, 78, 0.5);
     border:1px solid black;
-    padding: 70px;
+    padding:30px 70px;
     width: 100%;
     max-width: 400px;
     text-align: center;
