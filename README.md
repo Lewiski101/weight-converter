@@ -1,5 +1,4 @@
 # weight-converter
-Weight Converter
 A simple and user-friendly weight conversion tool to effortlessly switch between different units like kilograms, pounds, ounces, and more.
 
 Features
