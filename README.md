@@ -1,2 +1,9 @@
 # weight-converter
-A simple and intuitive tool for converting weights between different units (e.g., kilograms, pounds, ounces, and more). Perfect for developers, students, and anyone needing quick and accurate weight conversions.
+Weight Converter
+A simple and user-friendly weight conversion tool to effortlessly switch between different units like kilograms, pounds, ounces, and more.
+
+Features
+Convert weights between various units: kilograms, grams, pounds, ounces, etc.
+Accurate and fast calculations.
+Easy-to-use interface (CLI or GUI depending on your implementation).
+Lightweight and efficient.
