@@ -10,11 +10,18 @@ body {
     background-color: #f4f4f9;
     color: #333;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin-left: 105px;
 }
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;  /* Change to column on small screens */
+        justify-content: space-between;  /* Space between elements */
+        padding: 20px;  /* Add padding to avoid edges */
+    }
 
 /* Container Styling */
 .container {
