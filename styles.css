@@ -12,7 +12,6 @@ body {
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
 @media (max-width: 768px) {
@@ -23,8 +22,8 @@ body {
         height: 100vh;  /* Full screen height */
         padding: 20px;  /* Add padding to avoid edges */
     }
-  .app-card{
-    width:1300px;
+ .app-card{
+    width:13000px;
 }
 }
 /* Container Styling */
