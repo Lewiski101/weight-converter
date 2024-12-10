@@ -1,1 +1,191 @@
 
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .app-card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 10px 4px 10px rgba(78, 78, 78, 0.5);
+        border:1px solid black;
+        padding:30px 70px;
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+
+    }
+
+    .input-section input {
+        width: 100%; /* 90% width for input */
+        font-size: 1rem;
+        padding: 10px;
+        margin: 0 auto; /* Center the input */
+    }
+
+    .unit-selection {
+        display: flex;
+        justify-content: space-between; /* Align elements within the container */
+        gap: 10px; /* Space between elements */
+        flex-wrap: nowrap; /* Keep elements on the same line */
+        width: 100%; 
+    }
+    .unit-selection select {
+        width: 50%; /* Each select occupies 45% */
+        font-size: 1.9rem;
+    }
+
+    .unit-selection span {
+        width: 5px; /* "to" occupies 5px */
+        font-size: 1rem; /* Adjust size of "to" text */
+    }
+
+    .convert-btn {
+        width: auto; /* Keep the button size as is */
+        font-size: 1rem;
+        padding: 10px;
+        margin-top: 20px; /* Add some spacing */
+    }
+
+    .result {
+        margin-top: 20px;
+    }
+
+    #result-text {
+        font-size: 1rem;
+    }
+
+    .topHead {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+input{
+    border:1px solid grey;
+}
+/* App Card */
+.app-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 4px 10px rgba(78, 78, 78, 0.5);
+    border:1px solid black;
+    padding:30px 70px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.app-card h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Section */
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    font-weight: 600;
+    color: #444;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.input-section input:focus {
+    border-color: #3b82f6;
+}
+
+/* Unit Selection */
+.unit-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.unit-selection select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.unit-selection span {
+    font-size: 1.2rem;
+}
+
+/* Convert Button */
+.convert-btn {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.convert-btn:hover {
+    background-color: #2563eb;
+}
+
+/* Result Section */
+.result {
+    margin-top: 20px;
+}
+
+#result-text {
+    font-size: 1.2rem;
+    color: #333;
+}
+.topHead{
+
+    text-align:center;display:flex;
+    justify-content:center;
+}
