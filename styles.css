@@ -16,18 +16,61 @@ body {
     min-height: 100vh;
 }
 @media (max-width: 768px) {
-     body {
-        flex-direction: column;  /* Change to column on small screens */
-        justify-content: center;  /* Vertically center elements */
-        align-items: center;  /* Horizontally center elements */
-        height: 100vh;  /* Full screen height */
-        padding: 10px;  /* Add padding to avoid edges */
-        margin:0 auto;
+    body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 10px;
+        margin: 0 auto;
     }
-  .app-card{
-    width:10000px;
+
+    .app-card {
+        width: 100%;
+        padding: 20px;
+        box-shadow: 5px 3px 8px rgba(78, 78, 78, 0.4);
+    }
+
+    .input-section input {
+        width: 100%; /* Full width input */
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .unit-selection {
+        display: flex;
+        justify-content: space-between; /* Maintain alignment on the same line */
+        align-items: center;
+        gap: 10px; /* Add some spacing between elements */
+        flex-wrap: nowrap; /* Ensure elements stay on the same line */
+    }
+
+    .unit-selection select {
+        width: 45%; /* Smaller size for select elements */
+        font-size: 0.9rem;
+    }
+
+    .unit-selection span {
+        font-size: 1rem; /* Adjust size of "to" text */
+    }
+
+    .convert-btn {
+        width: 100%; /* Full width button */
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    #result-text {
+        font-size: 1rem;
+    }
+
+    .topHead {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
 }
-}
+
+
 /* Container Styling */
 .container {
     display: flex;
