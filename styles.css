@@ -32,32 +32,42 @@ body {
     }
 
     .input-section input {
-        width: 100%; /* Full width input */
+        width: 90%; /* 90% width for input */
         font-size: 1rem;
         padding: 10px;
+        margin: 0 auto; /* Center the input */
     }
 
     .unit-selection {
         display: flex;
-        justify-content: space-between; /* Maintain alignment on the same line */
+        justify-content: space-between; /* Align elements within the container */
         align-items: center;
-        gap: 10px; /* Add some spacing between elements */
-        flex-wrap: nowrap; /* Ensure elements stay on the same line */
+        gap: 10px; /* Space between elements */
+        flex-wrap: nowrap; /* Keep elements on the same line */
+        width: 100%; 
+        margin: 0 auto; /* Center the unit selection */
     }
 
     .unit-selection select {
-        width: 60%; /* Smaller size for select elements */
-        font-size: 0.9rem;
+        width: 90%; /* Each select occupies 45% */
+        font-size: 1.9rem;
     }
 
     .unit-selection span {
+        width: 5px; /* "to" occupies 5px */
+        text-align: center; /* Center the text */
         font-size: 1rem; /* Adjust size of "to" text */
     }
 
     .convert-btn {
-        width: 100%; /* Full width button */
+        width: auto; /* Keep the button size as is */
         font-size: 1rem;
         padding: 10px;
+        margin-top: 20px; /* Add some spacing */
+    }
+
+    .result {
+        margin-top: 20px;
     }
 
     #result-text {
@@ -69,6 +79,7 @@ body {
         margin-bottom: 15px;
     }
 }
+
 
 
 /* Container Styling */
